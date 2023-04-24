@@ -1,16 +1,44 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog adaptation form</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div>
+        <form action="#">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Name">
+            </div>
+           <div>
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" placeholder="Phone Number">
+           </div>
+            <div>
+                <label for="address">Address</label>
+                <input type="text" id="address" placeholder="Address">
+            </div>
+             <div>
+                <label for="checkbox">Have you ever lived with a Dog before?</label>
+                <input type="checkbox" id="checkbox" value="Have you ever lived with a Dog before?">
+            </div>
+            <div>
+                <label for="multiSelect">Please select your prefered breeds</label>
+                <select id="multiSelect" multiple>
+                    <option value="labrador">labrador</option>
+                    <option value="Golden Retriever">Golden Retriever</option>
+                    <option value="Poodle">Poodle</option>
+                    <option value="Bulldog">bulldog</option>
+                    <option value="doberman">doberman</option>
+                </select>
+            </div>
+			<div>
+                <input type="submit"  id="submit" value="Submit">
+            </div>
+        </form>
+    </div>
 </body>
-
 </html>
